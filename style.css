@@ -1,0 +1,72 @@
+body{
+    background-color: lightblue;
+
+}
+.Emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 100px;
+
+}
+.eye1{
+    position: absolute;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top: 30px;
+    left: 20px;
+}
+.eye2{
+    position: absolute;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top: 30px;
+    right: 20px;
+}
+.mouth{
+    position: absolute;
+    height: 32px;
+    width: 70px;
+    background-color: black;
+    border-radius: 0 0 70px 70px;
+    top: 53px;
+    left: 15px;
+    z-index: 1;
+   overflow: hidden;
+}
+.tongue{
+    position: absolute;
+     background-color: purple;
+     height: 35px;
+     width: 35px;
+     border-radius: 40%;
+     top: 15px;
+     left: 17px;
+
+}
+.shocking{
+    position: absolute;
+    height: 35px;
+    width: 30px;
+    background-color: black;
+    border-radius: 30px 30px 30px 30px;
+    top: 55px;
+    left: 35px;
+   
+}
+.peachless{
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    background-color: black;
+    border-radius: 0 0 70px 70px;
+    top: 70px;
+    left: 20px;
+
+}
